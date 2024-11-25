@@ -31,20 +31,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.rgm34295071.R.string
+import com.example.inventory.R.string
 import com.example.rgm34295071.ui.navigation.InventoryNavHost
 
-/**
- * Top level composable that represents screens for the application.
- */
 @Composable
 fun InventoryApp(navController: NavHostController = rememberNavController()) {
     InventoryNavHost(navController = navController)
 }
 
-/**
- * App bar to display title and conditionally display the back navigation.
- */
 @Composable
 fun InventoryTopAppBar(
     title: String,

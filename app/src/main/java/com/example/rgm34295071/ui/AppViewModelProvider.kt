@@ -33,25 +33,17 @@ import com.example.rgm34295071.ui.item.ItemEntryViewModel
  */
 object AppViewModelProvider {
     val Factory = viewModelFactory {
-        // Initializer for ItemEditViewModel
-        initializer {
-            ItemEditViewModel(
-                this.createSavedStateHandle()
-            )
-        }
+        // Other Initializers
         // Initializer for ItemEntryViewModel
         initializer {
-            ItemEntryViewModel()
+            ItemEntryViewModel(inventoryApplication().container.itemsRepository)
         }
-
-        // Initializer for ItemDetailsViewModel
         initializer {
             ItemDetailsViewModel(
                 this.createSavedStateHandle()
             )
         }
 
-        // Initializer for HomeViewModel
         initializer {
             HomeViewModel()
         }

@@ -41,7 +41,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.rgm34295071.InventoryTopAppBar
-import com.example.rgm34295071.R
+import com.example.inventory.R
 import com.example.rgm34295071.ui.AppViewModelProvider
 import com.example.rgm34295071.ui.navigation.NavigationDestination
 import com.example.rgm34295071.ui.theme.InventoryTheme
