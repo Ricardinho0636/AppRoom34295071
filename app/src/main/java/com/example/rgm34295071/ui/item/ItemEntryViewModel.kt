@@ -77,9 +77,3 @@ fun Item.toItemDetails(): ItemDetails = ItemDetails(
     price = price.toString(),
     quantity = quantity.toString()
 )
-
-suspend fun saveItem() {
-    if (validateInput()) {
-        itemsRepository.insertItem(itemUiState.itemDetails.toItem())
-    }
-}

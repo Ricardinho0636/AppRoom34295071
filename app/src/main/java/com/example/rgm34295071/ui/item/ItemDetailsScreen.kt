@@ -53,7 +53,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.rgm34295071.InventoryTopAppBar
-import com.example.rgm34295071.R
+import com.example.inventory.R
 import com.example.rgm34295071.data.Item
 import com.example.rgm34295071.ui.navigation.NavigationDestination
 import com.example.rgm34295071.ui.theme.InventoryTheme
